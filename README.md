@@ -10,7 +10,7 @@ Anthony Ballerino, 2073280
 Following are the areas in Homework-3 that were explored:
 <br> 1.Firstly, the starting point was to scrap some specific features of interest for given place from the following website: https://www.atlasobscura.com/places?sort=likes_count  for a total of 7200 places. Here we used mainly Beautiful Soup package for the purpose of scrapping.The scraped data has been saved in .csv format and describes the features extracted for all the 7200 locations.<br>
 
-<br> 2(Q2,Q3,Q5). These parts dealt with building the Search Engine from scratch. We learned how to build about inverted_index,tf_idf representations,finding cosine similarity and understood why heap data structure is good for storing top_k documents. In Q3 we learned how we can improve the ranking of the pages by asking extra information to the user and improve the scoring metrics. In Q5 we created more complex search engine by introducing more searchable elements and providing filtering criterion  to the user.<br>
+<br> 2(Q2,Q3,Q5). These parts dealt with building the Search Engine from scratch. We learned how to compute inverted_index,tf_idf representations,finding cosine similarity and understood why heap data structure is good for storing top_k documents. In Q3 we learned how we can improve the ranking of the pages by asking extra information to the user and improve the scoring metrics. In Q5 we created more complex search engine by introducing more searchable elements and providing filtering criterion  to the user.<br>
 
 <br>3. In Q4 we learned about visualising the places obtained from the Search Engine based on the user query. <br>
 
