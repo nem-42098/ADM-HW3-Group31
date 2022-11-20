@@ -57,7 +57,7 @@ The file is stored in *.csv* format.
 
 **Dataset/cl_dataset.tsv** : <br> This is the dataset need for the **CommandLineQuestion.sh** to get the required output. <br>
 
-**url.csv**:<br> This *.csv* file contains the url of all the pages from which the Main Dataset was created.
+**Dataset/url.csv**:<br> This *.csv* file contains the url of all the pages from which the Main Dataset was created.
 
 
 
