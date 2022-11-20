@@ -7,7 +7,15 @@ Paolo Leoni, 1894985
 
 Anthony Ballerino, 2073280
 
-The subject of this homework is a data set collected through scraping information from the following website: https://www.atlasobscura.com/places?sort=likes_count. The scraped data has been saved in both csv. and tsv. format and describes essentially for each location which is of cultural interest, some statistics present on the website, like then number of people who visited that location or would like to.
+Following are the areas in Homework-3 that were explored:
+<br> 1.Firstly, the starting point was to scrap some specific features of interest for given place from the following website: https://www.atlasobscura.com/places?sort=likes_count  for a total of 7200 places. Here we used mainly Beautiful Soup package for the purpose of scrapping.The scraped data has been saved in both csv. and tsv. format and describes essentially for each location which is of cultural interest, some statistics present on the website, like the number of people who visited that location or would like to.<br>
+
+<br> (Q2,Q3,Q5). These parts dealt with building the Search Engine from scratch. We learned how to build about inverted_index,tf_idf representations,finding cosine similarity and understood why heap data structure is good for storing top_k documents. In Q3 we learned how we can improve the ranking of the pages by asking extra information to the user and improve the scoring metrics. In Q5 we created more complex search engine by introducing more searchable elements and providing filtering criterion  to the user.<br>
+
+<br> In Q4 we learned about visualising the places obtained from the Search Engine based on the user query. <br>
+
+<br> 
+
 
 ## Contents
 
@@ -20,7 +28,7 @@ Caveat: To run the .ipynb files without error, the needed datasets are present i
 
 **CommandLineQuestion.sh** :<br> The solution to the command line question. The solution was developed in MacOS, so to run it over windows you need to install [Git](https://gitforwindows.org/) and use GIT Bash to run it.
 
-**Dataset/Full_DAtaset_Cleaned-v2.csv** : <br> This is the Main Dataset which contains features extracted from all the 7200 places from most popular place present on [Atlasobscura](https://www.atlasobscura.com/places?sort=likes_count). The decription of the features are as follows:
+**Dataset/Full_Dataset_Cleaned-v2.csv** : <br> This is the Main Dataset which contains features extracted from all the 7200 places from most popular place present on [Atlasobscura](https://www.atlasobscura.com/places?sort=likes_count). The decription of the features are as follows:
 
 1. Place Name (to save as `placeName`): String.
 2. Place Tags (to save as `placeTags`): List of Strings.
@@ -38,3 +46,16 @@ Caveat: To run the .ipynb files without error, the needed datasets are present i
 14. The URL of the page of the place (to save as `placeURL`):String
 
 The file is stored in *.csv* format.
+
+**Dataset/Dataset_Q2.csv** : <br> This is the smaller version of the main dataset which is required for the part in Q2.The dataset is stored in *.csv* format <br>
+
+**Dataset/inverted_index_Q2.csv** : <br> This is the stored version(*.csv*) of the computed inverted index required in part of Q2,Q3,Q4.<br>
+
+**Dataset/vocabulary_df_Q2.csv** : <br> This is the stored version(*.csv*) of the computed inverted index required in part of Q2,Q3,Q4.<br>
+
+**Dataset/cl_dataset.tsv** : <br> This is the dataset need for the **CommandLineQuestion.sh** to get the required output. <br>
+
+**url.csv**:<br> This *.csv* file contains the url of all the pages from which the Main Dataset was created.
+
+
+
