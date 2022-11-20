@@ -53,7 +53,7 @@ The file is stored in *.csv* format.
 
 **Dataset/inverted_index_Q2.csv** : <br> This is the stored version(*.csv*) of the computed inverted index required in part of Q2,Q3,Q4.<br>
 
-**Dataset/vocabulary_df_Q2.csv** : <br> This is the stored version(*.csv*) of the computed inverted index required in part of Q2,Q3,Q4.<br>
+**Dataset/vocabulary_df_Q2.csv** : <br> This is the stored version(*.csv*) of the computed vocabulary required in part of Q2,Q3,Q4.<br>
 
 **Dataset/cl_dataset.tsv** : <br> This is the dataset need for the **CommandLineQuestion.sh** to get the required output. <br>
 
