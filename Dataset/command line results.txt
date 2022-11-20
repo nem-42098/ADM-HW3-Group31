@@ -1,0 +1,30 @@
+Number of places which can be found in each country:
+|Num.|  Country   |
+-------------------
+    363 England
+    206 France
+    207 Italy
+      1 Location
+     91 Spain
+   4613 United-States
+-------------------
+Average number of people who visited locations in each country:
+|Country| Avg. Num. |
+---------------------
+France  424.791
+England  476.865
+Spain  448.033
+United-States  436.124
+Location  0
+Italy  384.749
+---------------------
+Total number of people willing to visit locations in each country:
+|Country| Num. People |
+-----------------------
+England 385977
+France  204651
+Italy   180032
+Location        0
+Spain   71207
+United-States   4333768
+-----------------------}
