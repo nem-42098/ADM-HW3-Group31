@@ -30,7 +30,7 @@ Caveat: To run the .ipynb files without error, the needed datasets are present i
 
 **CommandLineQuestion.sh** :<br> The solution to the command line question. The solution was developed in MacOS, so to run it over windows you need to install [Git](https://gitforwindows.org/) and use GIT Bash to run it.
 
-**Dataset/Full_Dataset_Cleaned-v2.csv** : <br> This is the Main Dataset which contains features extracted from all the 7200 places from most popular place present on [Atlasobscura](https://www.atlasobscura.com/places?sort=likes_count). The decription of the features are as follows:
+**Dataset/Full_Dataset_Cleaned-v2.csv** : <br> This is the Main Dataset which contains features extracted from all the 7200 places from most popular place present on [Atlasobscura](https://www.atlasobscura.com/places?sort=likes_count). The description of the features are as follows:
 
 1. Place Name (to save as `placeName`): String.
 2. Place Tags (to save as `placeTags`): List of Strings.
